@@ -1,0 +1,38 @@
+name: Threads Auto Scheduler
+
+on:
+  schedule:
+    # Runs every 15 minutes. GitHub Actions free tier has usage limits,
+    # so 15 min is a safe default. You can change '*/15' to '*/5' for
+    # every 5 minutes if you want tighter timing.
+    - cron: '*/15 * * * *'
+  workflow_dispatch: {}   # lets you manually trigger a run from the Actions tab
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scheduler
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: python threads_scheduler.py
+
+      - name: Commit updated posts.csv back to the repo
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add posts.csv scheduler.log
+          git diff --quiet --cached || git commit -m "Update post status [automated]"
+          git push
