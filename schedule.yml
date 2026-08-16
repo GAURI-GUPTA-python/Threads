@@ -27,6 +27,7 @@ jobs:
         env:
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          TZ: Asia/Kolkata   # makes the script's clock match Indian time directly — write scheduled_time in normal IST, no conversion needed
         run: python threads_scheduler.py
 
       - name: Commit updated posts.csv back to the repo
