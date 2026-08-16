@@ -23,19 +23,24 @@ import os
 import csv
 import time
 import traceback
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+# Fixed offset for India Standard Time (UTC+5:30). Calculated explicitly
+# instead of relying on the server's TZ environment variable, since that
+# isn't reliably respected across different runners (e.g. GitHub Actions).
+IST = timezone(timedelta(hours=5, minutes=30))
 
 BASE_DIR = Path(__file__).resolve().parent
 CSV_PATH = BASE_DIR / "posts.csv"
 LOG_PATH = BASE_DIR / "scheduler.log"
-GRAPH_API_VERSION = "v1.0"
+GRAPH_API_VERSION = "v1.0"  # Threads API uses its own versioning, NOT the v21.0-style Graph API versions
 
 
 # ---- Logging (write immediately, flush every line, never buffer) --------
 
 def log(message: str):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now(timezone.utc).astimezone(IST).strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{timestamp}] {message}"
     print(line, flush=True)
     try:
@@ -158,7 +163,9 @@ def parse_time(value: str) -> datetime:
 
 def main():
     rows = read_rows()
-    now = datetime.now()
+    # Always compute the current time in IST explicitly, regardless of
+    # what timezone the machine running this script is actually set to.
+    now = datetime.now(timezone.utc).astimezone(IST).replace(tzinfo=None)
     log(f"Current time: {now.strftime('%Y-%m-%d %H:%M')}")
     changed = False
 
