@@ -1,0 +1,113 @@
+[2026-08-16 12:47:55] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 12:47:55] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 12:47:55] THREADS_USER_ID loaded: YES
+[2026-08-16 12:47:55] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 12:47:55] Loaded 2 row(s) from posts.csv
+[2026-08-16 12:47:55] Current time: 2026-08-16 12:47
+[2026-08-16 12:47:55] Found 2 row(s) with status 'pending'
+[2026-08-16 12:47:55] Row id=1: scheduled=2026-08-16 12:50:00, now=2026-08-16 12:47:55.589500, due=False
+[2026-08-16 12:47:55] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 12:47:55.589500, due=False
+[2026-08-16 12:47:55] No changes made to posts.csv this run.
+[2026-08-16 12:47:55] Script finished normally.
+[2026-08-16 12:50:17] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 12:50:18] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 12:50:18] THREADS_USER_ID loaded: YES
+[2026-08-16 12:50:18] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 12:50:18] Loaded 2 row(s) from posts.csv
+[2026-08-16 12:50:18] Current time: 2026-08-16 12:50
+[2026-08-16 12:50:18] Found 2 row(s) with status 'pending'
+[2026-08-16 12:50:18] Row id=1: scheduled=2026-08-16 12:50:00, now=2026-08-16 12:50:18.177762, due=True
+[2026-08-16 12:50:18] Posting id=1 scheduled for 2026-08-16 12:50 ...
+[2026-08-16 12:50:18] Creating post container...
+[2026-08-16 12:50:19] Create response status: 400
+[2026-08-16 12:50:19] Create response body: {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"A9_hjoV49Z-PSTOQt8jTfxU"}}
+[2026-08-16 12:50:19]   -> FAILED: 400 Client Error: Bad Request for url: https://graph.threads.net/v21.0/thedigital/threads {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"A9_hjoV49Z-PSTOQt8jTfxU"}}
+[2026-08-16 12:50:19] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 12:50:18.177762, due=False
+[2026-08-16 12:50:19] posts.csv updated.
+[2026-08-16 12:50:19] Script finished normally.
+[2026-08-16 12:51:41] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 12:51:41] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 12:51:41] THREADS_USER_ID loaded: YES
+[2026-08-16 12:51:41] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 12:51:41] Loaded 2 row(s) from posts.csv
+[2026-08-16 12:51:41] Current time: 2026-08-16 12:51
+[2026-08-16 12:51:41] Found 1 row(s) with status 'pending'
+[2026-08-16 12:51:41] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 12:51:41.505065, due=False
+[2026-08-16 12:51:41] No changes made to posts.csv this run.
+[2026-08-16 12:51:41] Script finished normally.
+[2026-08-16 12:52:27] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 12:52:27] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 12:52:27] THREADS_USER_ID loaded: YES
+[2026-08-16 12:52:27] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 12:52:27] Loaded 2 row(s) from posts.csv
+[2026-08-16 12:52:27] Current time: 2026-08-16 12:52
+[2026-08-16 12:52:27] Found 2 row(s) with status 'pending'
+[2026-08-16 12:52:27] Row id=1: scheduled=2026-08-16 12:50:00, now=2026-08-16 12:52:27.466992, due=True
+[2026-08-16 12:52:27] Posting id=1 scheduled for 2026-08-16 12:50 ...
+[2026-08-16 12:52:27] Creating post container...
+[2026-08-16 12:52:28] Create response status: 400
+[2026-08-16 12:52:28] Create response body: {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"AFu9AeidWbbnJQfBjcczpQ4"}}
+[2026-08-16 12:52:28]   -> FAILED: 400 Client Error: Bad Request for url: https://graph.threads.net/v21.0/thedigitalgall._/threads {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"AFu9AeidWbbnJQfBjcczpQ4"}}
+[2026-08-16 12:52:28] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 12:52:27.466992, due=False
+[2026-08-16 12:52:28] posts.csv updated.
+[2026-08-16 12:52:28] Script finished normally.
+[2026-08-16 12:58:06] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 12:58:06] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 12:58:06] THREADS_USER_ID loaded: YES
+[2026-08-16 12:58:06] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 12:58:06] Loaded 2 row(s) from posts.csv
+[2026-08-16 12:58:06] Current time: 2026-08-16 12:58
+[2026-08-16 12:58:06] Found 1 row(s) with status 'pending'
+[2026-08-16 12:58:06] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 12:58:06.881234, due=False
+[2026-08-16 12:58:06] No changes made to posts.csv this run.
+[2026-08-16 12:58:06] Script finished normally.
+[2026-08-16 12:58:32] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 12:58:33] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 12:58:33] THREADS_USER_ID loaded: YES
+[2026-08-16 12:58:33] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 12:58:33] Loaded 2 row(s) from posts.csv
+[2026-08-16 12:58:33] Current time: 2026-08-16 12:58
+[2026-08-16 12:58:33] Found 2 row(s) with status 'pending'
+[2026-08-16 12:58:33] Row id=1: scheduled=2026-08-16 12:50:00, now=2026-08-16 12:58:33.180248, due=True
+[2026-08-16 12:58:33] Posting id=1 scheduled for 2026-08-16 12:50 ...
+[2026-08-16 12:58:33] Creating post container...
+[2026-08-16 12:58:33] Create response status: 400
+[2026-08-16 12:58:33] Create response body: {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"AeN5mTIby_RmH3Bgermh69s"}}
+[2026-08-16 12:58:33]   -> FAILED: 400 Client Error: Bad Request for url: https://graph.threads.net/v21.0/28081513931509782/threads {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"AeN5mTIby_RmH3Bgermh69s"}}
+[2026-08-16 12:58:33] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 12:58:33.180248, due=False
+[2026-08-16 12:58:33] posts.csv updated.
+[2026-08-16 12:58:33] Script finished normally.
+[2026-08-16 12:59:54] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 12:59:54] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 12:59:54] THREADS_USER_ID loaded: YES
+[2026-08-16 12:59:54] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 12:59:54] Loaded 2 row(s) from posts.csv
+[2026-08-16 12:59:54] Current time: 2026-08-16 12:59
+[2026-08-16 12:59:54] Found 2 row(s) with status 'pending'
+[2026-08-16 12:59:54] Row id=1: scheduled=2026-08-16 12:50:00, now=2026-08-16 12:59:54.851089, due=True
+[2026-08-16 12:59:54] Posting id=1 scheduled for 2026-08-16 12:50 ...
+[2026-08-16 12:59:54] Creating post container...
+[2026-08-16 12:59:55] Create response status: 400
+[2026-08-16 12:59:55] Create response body: {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"Akp-yNWvQgNAA20IFEFoflK"}}
+[2026-08-16 12:59:55]   -> FAILED: 400 Client Error: Bad Request for url: https://graph.threads.net/v21.0/28081513931509782/threads {"error":{"message":"Unknown path components: \/threads","type":"THApiException","code":2500,"fbtrace_id":"Akp-yNWvQgNAA20IFEFoflK"}}
+[2026-08-16 12:59:55] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 12:59:54.851089, due=False
+[2026-08-16 12:59:55] posts.csv updated.
+[2026-08-16 12:59:55] Script finished normally.
+[2026-08-16 13:02:42] Script started. Working directory: C:\Users\MYPC\Downloads\Threads
+[2026-08-16 13:02:42] .env file found at C:\Users\MYPC\Downloads\Threads\.env, loading...
+[2026-08-16 13:02:42] THREADS_USER_ID loaded: YES
+[2026-08-16 13:02:42] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-16 13:02:42] Loaded 2 row(s) from posts.csv
+[2026-08-16 13:02:42] Current time: 2026-08-16 13:02
+[2026-08-16 13:02:42] Found 2 row(s) with status 'pending'
+[2026-08-16 13:02:42] Row id=1: scheduled=2026-08-16 13:00:00, now=2026-08-16 13:02:42.896427, due=True
+[2026-08-16 13:02:42] Posting id=1 scheduled for 2026-08-16 13:00 ...
+[2026-08-16 13:02:42] Creating post container...
+[2026-08-16 13:02:45] Create response status: 200
+[2026-08-16 13:02:45] Create response body: {"id":"18089406917174572"}
+[2026-08-16 13:02:53] Publish response status: 200
+[2026-08-16 13:02:53] Publish response body: {"id":"18101101910190462"}
+[2026-08-16 13:02:53]   -> SUCCESS (post id: 18101101910190462)
+[2026-08-16 13:02:53] Row id=2: scheduled=2026-08-16 14:30:00, now=2026-08-16 13:02:42.896427, due=False
+[2026-08-16 13:02:53] posts.csv updated.
+[2026-08-16 13:02:53] Script finished normally.
