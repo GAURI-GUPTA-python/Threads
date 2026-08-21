@@ -12196,3 +12196,31 @@
 [2026-08-22 02:27:44] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-22 02:27:44.190261, due=False
 [2026-08-22 02:27:44] No changes made to posts.csv this run.
 [2026-08-22 02:27:44] Script finished normally.
+[2026-08-22 02:49:00] Script started. Working directory: /home/runner/work/Threads/Threads
+[2026-08-22 02:49:00] .env file found at /home/runner/work/Threads/Threads/.env, loading...
+[2026-08-22 02:49:00] THREADS_USER_ID loaded: YES
+[2026-08-22 02:49:00] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-22 02:49:00] Loaded 58 row(s) from posts.csv
+[2026-08-22 02:49:00] Current time: 2026-08-22 02:49
+[2026-08-22 02:49:00] Found 19 row(s) with status 'pending'
+[2026-08-22 02:49:00] Row id=42: scheduled=2026-08-22 11:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=43: scheduled=2026-08-22 13:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=44: scheduled=2026-08-22 15:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=45: scheduled=2026-08-22 17:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=46: scheduled=2026-08-22 19:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=47: scheduled=2026-08-22 21:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=48: scheduled=2026-08-22 23:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=49: scheduled=2026-08-23 11:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=50: scheduled=2026-08-23 13:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=51: scheduled=2026-08-23 15:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=52: scheduled=2026-08-23 17:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=53: scheduled=2026-08-23 19:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=54: scheduled=2026-08-23 21:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=55: scheduled=2026-08-23 23:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=56: scheduled=2026-08-24 11:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=57: scheduled=2026-08-24 13:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=58: scheduled=2026-08-24 15:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=59: scheduled=2026-08-24 17:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-22 02:49:00.536400, due=False
+[2026-08-22 02:49:00] No changes made to posts.csv this run.
+[2026-08-22 02:49:00] Script finished normally.
