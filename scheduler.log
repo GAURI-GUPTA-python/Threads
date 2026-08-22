@@ -13647,3 +13647,24 @@
 [2026-08-23 03:25:10] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-23 03:25:10.430153, due=False
 [2026-08-23 03:25:10] No changes made to posts.csv this run.
 [2026-08-23 03:25:10] Script finished normally.
+[2026-08-23 03:39:33] Script started. Working directory: /home/runner/work/Threads/Threads
+[2026-08-23 03:39:33] .env file found at /home/runner/work/Threads/Threads/.env, loading...
+[2026-08-23 03:39:33] THREADS_USER_ID loaded: YES
+[2026-08-23 03:39:33] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-23 03:39:33] Loaded 58 row(s) from posts.csv
+[2026-08-23 03:39:33] Current time: 2026-08-23 03:39
+[2026-08-23 03:39:33] Found 12 row(s) with status 'pending'
+[2026-08-23 03:39:33] Row id=49: scheduled=2026-08-23 11:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=50: scheduled=2026-08-23 13:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=51: scheduled=2026-08-23 15:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=52: scheduled=2026-08-23 17:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=53: scheduled=2026-08-23 19:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=54: scheduled=2026-08-23 21:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=55: scheduled=2026-08-23 23:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=56: scheduled=2026-08-24 11:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=57: scheduled=2026-08-24 13:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=58: scheduled=2026-08-24 15:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=59: scheduled=2026-08-24 17:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-23 03:39:33.607912, due=False
+[2026-08-23 03:39:33] No changes made to posts.csv this run.
+[2026-08-23 03:39:33] Script finished normally.
