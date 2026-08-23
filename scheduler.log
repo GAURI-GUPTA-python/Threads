@@ -14642,3 +14642,17 @@
 [2026-08-24 04:41:02] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-24 04:41:02.376134, due=False
 [2026-08-24 04:41:02] No changes made to posts.csv this run.
 [2026-08-24 04:41:02] Script finished normally.
+[2026-08-24 05:03:46] Script started. Working directory: /home/runner/work/Threads/Threads
+[2026-08-24 05:03:46] .env file found at /home/runner/work/Threads/Threads/.env, loading...
+[2026-08-24 05:03:46] THREADS_USER_ID loaded: YES
+[2026-08-24 05:03:46] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-24 05:03:46] Loaded 58 row(s) from posts.csv
+[2026-08-24 05:03:46] Current time: 2026-08-24 05:03
+[2026-08-24 05:03:46] Found 5 row(s) with status 'pending'
+[2026-08-24 05:03:46] Row id=56: scheduled=2026-08-24 11:00:00, now=2026-08-24 05:03:46.143342, due=False
+[2026-08-24 05:03:46] Row id=57: scheduled=2026-08-24 13:00:00, now=2026-08-24 05:03:46.143342, due=False
+[2026-08-24 05:03:46] Row id=58: scheduled=2026-08-24 15:00:00, now=2026-08-24 05:03:46.143342, due=False
+[2026-08-24 05:03:46] Row id=59: scheduled=2026-08-24 17:00:00, now=2026-08-24 05:03:46.143342, due=False
+[2026-08-24 05:03:46] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-24 05:03:46.143342, due=False
+[2026-08-24 05:03:46] No changes made to posts.csv this run.
+[2026-08-24 05:03:46] Script finished normally.
