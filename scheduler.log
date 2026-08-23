@@ -13899,3 +13899,31 @@
 [2026-08-23 10:48:36] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-23 10:48:36.639144, due=False
 [2026-08-23 10:48:36] No changes made to posts.csv this run.
 [2026-08-23 10:48:36] Script finished normally.
+[2026-08-23 11:21:44] Script started. Working directory: /home/runner/work/Threads/Threads
+[2026-08-23 11:21:44] .env file found at /home/runner/work/Threads/Threads/.env, loading...
+[2026-08-23 11:21:44] THREADS_USER_ID loaded: YES
+[2026-08-23 11:21:44] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-23 11:21:44] Loaded 58 row(s) from posts.csv
+[2026-08-23 11:21:44] Current time: 2026-08-23 11:21
+[2026-08-23 11:21:44] Found 12 row(s) with status 'pending'
+[2026-08-23 11:21:44] Row id=49: scheduled=2026-08-23 11:00:00, now=2026-08-23 11:21:44.257506, due=True
+[2026-08-23 11:21:44] Posting id=49 scheduled for 2026-08-23 11:00 ...
+[2026-08-23 11:21:44] Creating post container...
+[2026-08-23 11:21:47] Create response status: 200
+[2026-08-23 11:21:47] Create response body: {"id":"18091263665174572"}
+[2026-08-23 11:21:56] Publish response status: 200
+[2026-08-23 11:21:56] Publish response body: {"id":"18072852065422208"}
+[2026-08-23 11:21:56]   -> SUCCESS (post id: 18072852065422208)
+[2026-08-23 11:21:56] Row id=50: scheduled=2026-08-23 13:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=51: scheduled=2026-08-23 15:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=52: scheduled=2026-08-23 17:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=53: scheduled=2026-08-23 19:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=54: scheduled=2026-08-23 21:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=55: scheduled=2026-08-23 23:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=56: scheduled=2026-08-24 11:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=57: scheduled=2026-08-24 13:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=58: scheduled=2026-08-24 15:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=59: scheduled=2026-08-24 17:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-23 11:21:44.257506, due=False
+[2026-08-23 11:21:56] posts.csv updated.
+[2026-08-23 11:21:56] Script finished normally.
