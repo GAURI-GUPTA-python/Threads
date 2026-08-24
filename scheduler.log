@@ -14819,3 +14819,22 @@
 [2026-08-24 14:31:25] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-24 14:31:25.296647, due=False
 [2026-08-24 14:31:25] No changes made to posts.csv this run.
 [2026-08-24 14:31:25] Script finished normally.
+[2026-08-24 15:30:26] Script started. Working directory: /home/runner/work/Threads/Threads
+[2026-08-24 15:30:26] .env file found at /home/runner/work/Threads/Threads/.env, loading...
+[2026-08-24 15:30:26] THREADS_USER_ID loaded: YES
+[2026-08-24 15:30:26] THREADS_ACCESS_TOKEN loaded: YES (201 chars)
+[2026-08-24 15:30:26] Loaded 58 row(s) from posts.csv
+[2026-08-24 15:30:26] Current time: 2026-08-24 15:30
+[2026-08-24 15:30:26] Found 3 row(s) with status 'pending'
+[2026-08-24 15:30:26] Row id=58: scheduled=2026-08-24 15:00:00, now=2026-08-24 15:30:26.259125, due=True
+[2026-08-24 15:30:26] Posting id=58 scheduled for 2026-08-24 15:00 ...
+[2026-08-24 15:30:26] Creating post container...
+[2026-08-24 15:30:28] Create response status: 200
+[2026-08-24 15:30:28] Create response body: {"id":"18091568609174572"}
+[2026-08-24 15:30:36] Publish response status: 200
+[2026-08-24 15:30:36] Publish response body: {"id":"18101182796217409"}
+[2026-08-24 15:30:36]   -> SUCCESS (post id: 18101182796217409)
+[2026-08-24 15:30:36] Row id=59: scheduled=2026-08-24 17:00:00, now=2026-08-24 15:30:26.259125, due=False
+[2026-08-24 15:30:36] Row id=60: scheduled=2026-08-24 19:00:00, now=2026-08-24 15:30:26.259125, due=False
+[2026-08-24 15:30:36] posts.csv updated.
+[2026-08-24 15:30:36] Script finished normally.
