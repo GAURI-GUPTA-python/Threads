@@ -127,10 +127,10 @@ id,text,image_url,scheduled_time,status,posted_at,note
 126,Discipline is self-love with a schedule. 💕,,2026-10-10 19:00,posted,2026-10-10 20:48:56,OK (17893292958437808)
 127,10 plug-and-play spreadsheets. Idea scoring pricing calculators launch tracking. 💡 The boring math is already done. https://gauris.gumroad.com/l/idea-to-income,,2026-10-10 21:00,posted,2026-10-11 00:52:52,OK (18115652147085763)
 128,WOMAN TO WOMAN: Nobody is too busy for you. People make time for what matters to them. Believe what they show you 🤍,,2026-10-11 11:00,posted,2026-10-11 12:53:57,OK (18116702071805243)
-129,Everyone has ideas. Few have evidence. Ask 5 people. Post a poll. Watch what they save. Data beats gut every time. 📱,,2026-10-11 13:00,pending,,
-130,POV: it's 2029 and you can afford the therapy AND the trip. ✨,,2026-10-11 15:00,pending,,
-131,Your commute is a classroom. 💼,,2026-10-11 17:00,pending,,
-132,REAL TALK: If you do not have a plan for your money someone else does 📉,,2026-10-11 19:00,pending,,
+129,Everyone has ideas. Few have evidence. Ask 5 people. Post a poll. Watch what they save. Data beats gut every time. 📱,,2026-10-11 13:00,posted,2026-10-11 19:44:13,OK (18104002970188684)
+130,POV: it's 2029 and you can afford the therapy AND the trip. ✨,,2026-10-11 15:00,error,,"400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/28081513931509782/threads_publish {""error"":{""message"":""The requested resource does not exist"",""type"":""OAuthException"",""code"":24,""error_subcode"":4279009,""is_transient"":false,""error_user_title"":""Media Not Found"",""error_user_msg"":""Th"
+131,Your commute is a classroom. 💼,,2026-10-11 17:00,error,,"400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/28081513931509782/threads_publish {""error"":{""message"":""The requested resource does not exist"",""type"":""OAuthException"",""code"":24,""error_subcode"":4279009,""is_transient"":false,""error_user_title"":""Media Not Found"",""error_user_msg"":""Th"
+132,REAL TALK: If you do not have a plan for your money someone else does 📉,,2026-10-11 19:00,error,,"400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/28081513931509782/threads_publish {""error"":{""message"":""The requested resource does not exist"",""type"":""OAuthException"",""code"":24,""error_subcode"":4279009,""is_transient"":false,""error_user_title"":""Media Not Found"",""error_user_msg"":""Th"
 133,Say 'thank you' not 'it was nothing.' Accept praise like you earned it because you did. 💕,,2026-10-11 21:00,pending,,
 134,Digital products let you sell while you sleep. 🛍️,,2026-10-12 11:00,pending,,
 135,POV: It's 2030 and your hard work turned into a life that feels like peace 🕊️,,2026-10-12 13:00,pending,,
