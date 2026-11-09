@@ -124472,3 +124472,50 @@
 [2026-11-09 08:07:32] Row id=95: scheduled=2026-11-11 19:00:00, now=2026-11-09 08:07:32.432833, due=False
 [2026-11-09 08:07:32] No changes made to posts.csv this run.
 [2026-11-09 08:07:32] Script finished normally.
+[2026-11-09 15:48:48] Script started. Working directory: /home/runner/work/Threads/Threads
+[2026-11-09 15:48:48] .env file found at /home/runner/work/Threads/Threads/.env, loading...
+[2026-11-09 15:48:48] THREADS_USER_ID loaded: YES
+[2026-11-09 15:48:48] THREADS_ACCESS_TOKEN loaded: YES (200 chars)
+[2026-11-09 15:48:48] Loaded 96 row(s) from posts.csv
+[2026-11-09 15:48:48] Current time: 2026-11-09 15:48
+[2026-11-09 15:48:48] Found 17 row(s) with status 'pending'
+[2026-11-09 15:48:48] Row id=79: scheduled=2026-11-09 11:00:00, now=2026-11-09 15:48:48.202433, due=True
+[2026-11-09 15:48:48] Posting id=79 scheduled for 2026-11-09 11:00 ...
+[2026-11-09 15:48:48] Creating post container...
+[2026-11-09 15:48:51] Create response status: 200
+[2026-11-09 15:48:51] Create response body: {"id":"18110634698174572"}
+[2026-11-09 15:48:59] Publish response status: 200
+[2026-11-09 15:48:59] Publish response body: {"id":"17985452957901222"}
+[2026-11-09 15:48:59]   -> SUCCESS (post id: 17985452957901222)
+[2026-11-09 15:48:59] Row id=80: scheduled=2026-11-09 13:00:00, now=2026-11-09 15:48:48.202433, due=True
+[2026-11-09 15:48:59] Posting id=80 scheduled for 2026-11-09 13:00 ...
+[2026-11-09 15:48:59] Creating post container...
+[2026-11-09 15:49:02] Create response status: 200
+[2026-11-09 15:49:02] Create response body: {"id":"18110634857174572"}
+[2026-11-09 15:49:10] Publish response status: 200
+[2026-11-09 15:49:10] Publish response body: {"id":"17910340386334340"}
+[2026-11-09 15:49:10]   -> SUCCESS (post id: 17910340386334340)
+[2026-11-09 15:49:10] Row id=81: scheduled=2026-11-09 15:00:00, now=2026-11-09 15:48:48.202433, due=True
+[2026-11-09 15:49:10] Posting id=81 scheduled for 2026-11-09 15:00 ...
+[2026-11-09 15:49:10] Creating post container...
+[2026-11-09 15:49:13] Create response status: 200
+[2026-11-09 15:49:13] Create response body: {"id":"18110634908174572"}
+[2026-11-09 15:49:21] Publish response status: 200
+[2026-11-09 15:49:21] Publish response body: {"id":"18358504261216969"}
+[2026-11-09 15:49:21]   -> SUCCESS (post id: 18358504261216969)
+[2026-11-09 15:49:21] Row id=82: scheduled=2026-11-09 17:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=83: scheduled=2026-11-09 19:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=84: scheduled=2026-11-09 21:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=85: scheduled=2026-11-10 11:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=86: scheduled=2026-11-10 13:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=87: scheduled=2026-11-10 15:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=88: scheduled=2026-11-10 17:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=89: scheduled=2026-11-10 19:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=90: scheduled=2026-11-10 21:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=91: scheduled=2026-11-11 11:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=92: scheduled=2026-11-11 13:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=93: scheduled=2026-11-11 15:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=94: scheduled=2026-11-11 17:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] Row id=95: scheduled=2026-11-11 19:00:00, now=2026-11-09 15:48:48.202433, due=False
+[2026-11-09 15:49:21] posts.csv updated.
+[2026-11-09 15:49:21] Script finished normally.
