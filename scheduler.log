@@ -125050,3 +125050,13 @@
 [2026-11-20 04:48:31] No pending posts in queue. Nothing to do.
 [2026-11-20 04:48:31] No changes made to posts.csv this run.
 [2026-11-20 04:48:31] Script finished normally.
+[2026-11-20 09:35:12] Script started. Working directory: /home/runner/work/Threads/Threads
+[2026-11-20 09:35:13] .env file found at /home/runner/work/Threads/Threads/.env, loading...
+[2026-11-20 09:35:13] THREADS_USER_ID loaded: YES
+[2026-11-20 09:35:13] THREADS_ACCESS_TOKEN loaded: YES (200 chars)
+[2026-11-20 09:35:13] Loaded 96 row(s) from posts.csv
+[2026-11-20 09:35:13] Current time: 2026-11-20 09:35
+[2026-11-20 09:35:13] Found 0 row(s) with status 'pending'
+[2026-11-20 09:35:13] No pending posts in queue. Nothing to do.
+[2026-11-20 09:35:13] No changes made to posts.csv this run.
+[2026-11-20 09:35:13] Script finished normally.
